@@ -25,3 +25,12 @@ public class StringBufferHandling {
         scanner.close();
     }
 }
+/*Output
+Capacity of StringBuffer object sb1: 16
+Capacity of StringBuffer object sb2: 21
+Enter a string: welcome
+Reversed string in uppercase: EMOCLEW
+Enter a string to append: BACK
+String after appending: EMOCLEWBACK
+    */
+
