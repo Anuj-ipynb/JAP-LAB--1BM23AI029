@@ -29,3 +29,15 @@ public class ExamScoreTracker {
         scanner.close();
     }
 }
+/*Output
+Enter exam scores for each student:
+Enter score for student 1: 78
+Enter score for student 2: 92
+Enter score for student 3: 85
+Enter score for student 4: 67
+Enter score for student 5: 90
+
+Exam score statistics:
+Sum of all scores: 412
+Highest score attained: 92
+*/
