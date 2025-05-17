@@ -12,14 +12,14 @@ public class String_Functions {
     }
 
     public static void main(String[] args) {
-        String str1 = "Hello";
-        String str2 = "hello";
+        String str1 = "Hello, Anuj";
+        String str2 = "hello, Anuj";
 
         System.out.println("String comparison:");
         System.out.println("Are the strings equal? " + compareStrings(str1, str2));
 
         
-        String original = "Copy me!";
+        String original = "Copy !";
         String copied = copyString(original);
         System.out.println("\nString copy:");
         System.out.println("Original string: " + original);
@@ -32,3 +32,14 @@ public class String_Functions {
         System.out.println("Concatenated string: " + concatenated);
     }
 }
+/*Output
+String comparison:
+Are the strings equal? false
+
+String copy:
+Original string: Copy !
+Copied string: Copy !
+
+String concatenation:
+Concatenated string: Hello, world!
+    */
