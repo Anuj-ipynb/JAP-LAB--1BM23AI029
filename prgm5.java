@@ -43,23 +43,35 @@ public class OnlineShoppingManager {
     public static void main(String[] args) {
         OnlineShoppingManager manager = new OnlineShoppingManager();
 
-        // Add some products to the inventory
         manager.addProduct("Laptop", 40000, "Electronics");
         manager.addProduct("T-shirt", 550, "Clothing");
         manager.addProduct("Book", 920, "Books");
 
-        // Display all products in the inventory
         System.out.println("\nInitial Inventory:");
         manager.displayInventory();
 
-        // Remove a product
         System.out.println("\nRemoving 'Book'...");
         manager.removeProduct("Book");
         manager.displayInventory();
 
-        // Remove another product
         System.out.println("\nRemoving 'Laptop'...");
         manager.removeProduct("Laptop");
         manager.displayInventory();
     }
 }
+/*Output
+Initial Inventory:
+Inventory:
+Name: Laptop, Price: ₹40000.0, Category: Electronics
+Name: T-shirt, Price: ₹550.0, Category: Clothing
+Name: Book, Price: ₹920.0, Category: Books
+
+Removing 'Book'...
+Inventory:
+Name: Laptop, Price: ₹40000.0, Category: Electronics
+Name: T-shirt, Price: ₹550.0, Category: Clothing
+
+Removing 'Laptop'...
+Inventory:
+Name: T-shirt, Price: ₹550.0, Category: Clothing */
+
