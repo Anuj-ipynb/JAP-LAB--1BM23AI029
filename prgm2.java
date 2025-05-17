@@ -26,3 +26,16 @@ public class Boxing {
         System.out.println("Unboxed Float: " + unboxedFloat);
     }
 }
+
+/*Output:
+Boxed Integer: 10
+Unboxed Integer: 10
+Boxed Double: 20.5
+Unboxed Double: 20.5
+Boxed Character: A
+Unboxed Character: A
+Boxed Boolean: true
+Unboxed Boolean: true
+Boxed Float: 30.5
+Unboxed Float: 30.5
+*/
