@@ -25,3 +25,17 @@ public class GymMembershipManager {
         scanner.close();
     }
 }
+
+/*Output:
+Enter member name: Anuj
+Enter member age: 18
+Is the membership active? (true/false): true
+Enter membership duration (in months): 6
+
+Member Details:
+Name: Anuj
+Age: 18
+Membership Status: Active
+Membership Duration: 6 months
+Membership Fee: $300.0
+*/
