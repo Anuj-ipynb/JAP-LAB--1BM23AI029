@@ -20,3 +20,7 @@ public class Enumeration {
         System.out.println("Is Saturday a workday? " + DayOfWeek.SATURDAY.isWorkday());
     }
 }
+/*Output:
+Is Monday a workday? true
+Is Saturday a workday? false
+*/
