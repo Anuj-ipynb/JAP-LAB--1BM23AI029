@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringBufferHandling {
+public class StringBufferHandling3B {
     public static void main(String[] args) {
         StringBuffer sb1 = new StringBuffer();
         System.out.println("Capacity of StringBuffer object sb1: " + sb1.capacity());
