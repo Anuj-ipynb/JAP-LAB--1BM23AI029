@@ -87,7 +87,7 @@ class DynamicLengthStack implements Stack {
     }
 }
 
-public class StackOperations {
+public class StackOperations9 {
     public static void main(String[] args) {
         Stack fixedStack = new FixedLengthStack(5);
         System.out.println("Fixed Length Stack Operations:");
