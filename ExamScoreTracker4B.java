@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExamScoreTracker {
+public class ExamScoreTracker4B {
     public static void main(String[] args) {
         final int NUM_STUDENTS = 5;
         int[] examScores = new int[NUM_STUDENTS];
