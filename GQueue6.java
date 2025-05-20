@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class GQueue<T> {
+public class GQueue6<T> {
     T[] que;
     int size;
 
