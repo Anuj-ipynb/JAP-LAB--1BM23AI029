@@ -30,7 +30,7 @@ class Account {
     }
 }
 
-public class TestAccount {
+public class TestAccount8 {
     public static void main(String[] args) {
         Account account1 = new Account();
         Account account2 = new Account();
