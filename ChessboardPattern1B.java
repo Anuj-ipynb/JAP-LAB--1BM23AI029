@@ -1,4 +1,4 @@
-public class ChessboardPattern {
+public class ChessboardPattern1B {
     public static void main(String[] args) {
         int size = 8;
         for (int i = 0; i < size; i++) {
