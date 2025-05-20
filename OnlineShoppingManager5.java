@@ -12,7 +12,7 @@ class Product {
     }
 }
 
-public class OnlineShoppingManager {
+public class OnlineShoppingManager5 {
     private Vector<Product> inventory;
 
     public OnlineShoppingManager() {
