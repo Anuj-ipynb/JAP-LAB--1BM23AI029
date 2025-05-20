@@ -14,7 +14,7 @@ class Pharmacy {
     }
 }
 
-public class PharmacyManagementSystem {
+public class PharmacyManagementSystem7 {
     private ArrayList<Pharmacy> inventory = new ArrayList<>();
 
     public void addItem(Pharmacy item) {
