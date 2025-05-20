@@ -1,4 +1,4 @@
-public class Boxing {
+public class Boxing2 {
     public static void main(String[] args) {
         
         Integer boxedInt = Integer.valueOf(10);
