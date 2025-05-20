@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GymMembershipManager {
+public class GymMembershipManager1A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter member name: ");
